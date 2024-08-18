@@ -1,0 +1,26 @@
+POST http://localhost:3332/users
+Content-Type: application/json
+
+{
+    "username":"KJunior",
+    "email":"kljn28@hotmail.com",
+    "password":"Kjuh@280",
+    "gender":"Masculino"
+}
+
+###
+GET http://localhost:3332/users
+
+###
+PUT http://localhost:3332/users/a2803725-9d19-4b94-994c-a746ee8c3df1
+Content-Type: application/json
+
+{
+    "username":"KJunior",
+    "email":"kljn28@outlook.com",
+    "password":"Kjuh@280",
+    "gender":"Masculino"
+}
+
+###
+DELETE http://localhost:3332/users
